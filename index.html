@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css">
+    <title>Amiah Finance</title>
+</head>
+<body>
+
+
+<div id="balancesheet" class="bg-dark text-white w-50 mx-auto">
+        <table class="mx-auto" width="500px" height="600px">
+            <tr>
+                <h1 class="bg-primary text-center">Amiah Collections</h1>
+            </tr>
+            <tr>
+                <h4 class="text-center bg-primary">Balance Sheet</h4>
+            </tr>
+            <tr>
+                <h5 class="text-center bg-primary">10 September 2020</h5>
+            </tr>
+
+
+
+            <!-- Assets -->
+<!-- -------------------------------------------------------------------------------------------------------------------------------->            
+          <tr>
+            <th scope="row">Assets</th>
+          </tr>
+
+    <!-- -------------------------CASH -------------------------------------------------------------------------- -->
+          <tr>
+              <td class="text-right"> Cash</td>
+              <td></td>
+              <td id="cash">32927</td>
+              <td></td>
+              <td></td>
+            </tr>
+    <!-- ----------------------------INVENTORY-------------------------------------------------------------------- -->
+            <tr>
+                <td class="text-right">Inventory</td>
+                <td></td>
+                <td id="inv">5400</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+    <!-- --------------------------------RECIEVEABLES-------------------------------------------------------------- -->
+            <tr>
+                <td class="text-right">Recieveables</td>
+                <td></td>
+                <td id="rec">5173</td>
+                <td></td>
+                <td></td>
+            </tr>
+    <!-----------------------------------------------OTHER ASSETS----------------------------------------------------  -->
+            <tr>
+                <td class="text-right">Others*</td>
+                <td></td>
+                <td id="otherAssets"></td>
+                <td></td>
+                <td></td>
+            </tr>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+            <tr class="bg-success">
+                <td></td>
+                <th>Total Assets</th>
+                <td></td>
+                <td id="totalAssets" colspan="2"></td>
+            </tr>
+
+<!-- ------------------------------------------LIABILITY--------------------------------------------------------------------------------- -->
+          <tr>
+            <tr>
+                <th scope="row">Liability</th>
+              </tr>
+              <tr>
+
+
+                  <td class="text-right">Amount Payables</td>
+                  <td></td>
+
+    <!-------------------- AMOUNT PAYABLES -------------------------------------------------------->
+                  <td id="pay">0</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+    <!---------------------------- OTHERS LIABILITy--------------------------------------------- -->
+                <tr>
+                    <td class="text-right">Others*</td>
+                    <td></td>
+                    <td id="otherLiab">0</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+
+                <tr class="bg-success">
+                    <td></td>
+                    <th>Total Liability</th>
+                    <td></td>
+                    <td id="totalLiab" colspan="2"></td>
+                </tr>
+
+    <!-- -------------------EQUITY-------------------------------------------------------------------- -->
+              <tr>
+                <tr>
+                    <th scope="row">Equity</th>
+                  </tr>
+                  <tr>
+                      <td class="text-right">No. of Shares</td>
+                      <td></td>
+                      <td id="noOfShares">870</td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                        <td class="text-right">Per share Value</td>
+                        <td></td>
+                        <td id="valueOfShare"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                  <tr>
+                    <tr class="bg-success">
+                        <td></td>
+                        <th>Total Equity</th>
+                        <td></td>
+                        <td id="totalEquity" colspan="2"></td>
+                    </tr>
+        </tbody>
+      </table>
+
+</div>
+
+
+<button class="text-center mx-auto" type="button" onclick="printDiv('balancesheet')">Print</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
